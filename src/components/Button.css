@@ -1,0 +1,23 @@
+.button-wrapper {
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+	background: rgb(116, 130, 151);
+	color: #000;
+	flex: 1;
+	border: 3px solid #000;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.button-wrapper:hover {
+	background: indigo;
+	color: white;
+}
+.operator {
+	background: #3c533c;
+	color: #ffffff;
+	font-weight: bold;
+}
